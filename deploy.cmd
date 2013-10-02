@@ -82,7 +82,7 @@ IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
 )
 
 echo Build Successful
-curl -X POST https://api.twilio.com/2010-04-01/Accounts/AC5c610a3fa9b98af85e85ff254ab93217/SMS/Messages --data-urlencode "To=+13522265279" --data-urlencode "From=+13524483307" --data-urlencode "Body=Build Succeeded" -u AC5c610a3fa9b98af85e85ff254ab93217:a763bcd03350370f7171130230b33871
+curl -X POST https://api.twilio.com/2010-04-01/Accounts/AC5c610a3fa9b98af85e85ff254ab93217/SMS/Messages --data-urlencode "To=+12067697870" --data-urlencode "From=+13524483307" --data-urlencode "Body=Build Succeeded" -u AC5c610a3fa9b98af85e85ff254ab93217:a763bcd03350370f7171130230b33871
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
