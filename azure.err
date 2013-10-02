@@ -1,0 +1,25 @@
+Wed Oct 02 2013 08:05:14 GMT-0700 (Pacific Daylight Time):
+{ [Error: Missing solution file path (--solutionFile), to explicitly not require a solution use the flag --no-solution]
+  stack: [Getter/Setter],
+  __frame: 
+   { name: 'generateWapDeploymentScript',
+     line: 117,
+     file: 'C:\\Program Files (x86)\\Microsoft SDKs\\Windows Azure\\CLI\\node_modules\\kuduscript\\lib\\generator.js',
+     prev: 
+      { name: 'ScriptGenerator_prototype_generateDeploymentScript__1',
+        line: 136,
+        file: 'C:\\Program Files (x86)\\Microsoft SDKs\\Windows Azure\\CLI\\node_modules\\kuduscript\\lib\\generator.js',
+        prev: [Object],
+        active: false,
+        offset: 6,
+        col: 2 },
+     active: false,
+     offset: 1,
+     col: 2 },
+  rawStack: [Getter] }
+Error: Missing solution file path (--solutionFile), to explicitly not require a solution use the flag --no-solution
+    at ScriptGenerator_prototype_generateWapDeploymentScript__3 (C:\Program Files (x86)\Microsoft SDKs\Windows Azure\CLI\node_modules\kuduscript\lib\generator.js:169:16)
+    at generateWapDeploymentScript (C:\Program Files (x86)\Microsoft SDKs\Windows Azure\CLI\node_modules\kuduscript\lib\generator.js:118:2)
+    at ScriptGenerator_prototype_generateDeploymentScript__1 (C:\Program Files (x86)\Microsoft SDKs\Windows Azure\CLI\node_modules\kuduscript\lib\generator.js:142:2)
+    at __3 (C:\Program Files (x86)\Microsoft SDKs\Windows Azure\CLI\lib\commands\site.js:162:4)
+
